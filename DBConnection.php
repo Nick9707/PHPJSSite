@@ -12,10 +12,6 @@ DEFINE ('DB_HOST', 'localhost:3307');
 $conn = mysqli_connect(DB_HOST, DB_USER, DB_PASSWORD);
 
 if(!$conn){
-    die("Connection failed: " . $conn -> mysqli_connect_error());
-}
-
-if ($conn){
-    echo "cool";
+    die("Connection failed: " . mysqli_connect_error());
 }
 ?>
