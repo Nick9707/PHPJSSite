@@ -7,23 +7,22 @@ window.onload = function(){
           modal.style.display = "none";
       }
   }
+}
 
-  function validation() {
-      var email = document.getElementById('email').value;
-      var password = document.getElementById('password').value;
+function validation() {
+    var email = document.getElementById('email').value;
+    var password = document.getElementById('password').value;
 
-      if(password=='' || email=='')
-      {
-          document.getElementById("email").innerHTML = "You need to enter all fields";
-          return false;
-      }
-      else if(password.length<3){
-          document.getElementById("password").innerHTML = "Your Password must Be Atleast 3 characters";
-          return false;
-      }
-      else {
-          return true;
-      }
-  }
-
+    if(password=='' || email=='')
+    {
+        document.getElementById("email").innerHTML = "You need to enter all fields";
+        return false;
+    }
+    else if(password.length<3){
+        document.getElementById("password").innerHTML = "Your Password must Be Atleast 3 characters";
+        return false;
+    }
+    else {
+        return true;
+    }
 }
