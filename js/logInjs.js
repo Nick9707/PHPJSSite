@@ -14,11 +14,11 @@ window.onload = function(){
 
       if(password=='' || email=='')
       {
-          document.getElementById("msg").innerHTML = "You need to enter all fields";
+          document.getElementById("email").innerHTML = "You need to enter all fields";
           return false;
       }
       else if(password.length<3){
-          document.getElementById("msg").innerHTML = "Your Password must Be Atleast 3 characters";
+          document.getElementById("password").innerHTML = "Your Password must Be Atleast 3 characters";
           return false;
       }
       else {
