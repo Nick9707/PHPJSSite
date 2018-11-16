@@ -118,3 +118,11 @@ span.psw {
        width: 100%;
     }
 }
+
+#errPass{
+  color: red;
+}
+
+#errEmail{
+  color: red;
+}

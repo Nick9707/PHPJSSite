@@ -19,7 +19,7 @@ function validation() {
         return false;
     }
     else if(password.length<3){
-        document.getElementById("errPass").innerHTML = "Your Password must Be Atleast 3 characters";
+        document.getElementById("errPass").innerHTML = "Your Password must be atleast 3 characters";
         return false;
     }
     else {
